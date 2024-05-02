@@ -1,0 +1,41 @@
+02:13:56.748 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+02:13:56.854 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeVersion=1.4, archetypeGroupId=com.browserstack, archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=1ZSMkuz3EVNj3ygZyYGf, groupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=prajaktapednekar_FCIWrt, BROWSERSTACK_FRAMEWORK=java, BUILD_NAME=browserstack build, version=1.0, PROJECT_NAME=BrowserStack Sample, BROWSERSTACK_SOURCE=java:eclipse:v1.0.8]
+02:13:56.864 [Worker-37: Launching mavenrun-cd32e8a7-fef8-4802-b64e-392d4abbc18b] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+02:14:37.381 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+02:14:37.381 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+02:14:37.383 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/SeleniumFramework
+02:14:37.384 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+02:14:37.384 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+02:14:37.387 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/SeleniumFramework
+02:16:18.087 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+02:16:18.087 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+02:16:18.089 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/SeleniumFramework
+02:16:18.090 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+02:16:18.090 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+02:16:18.091 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/SeleniumFramework
+02:18:14.163 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+02:18:14.198 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : false null
+02:18:14.202 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+02:18:14.202 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false null
+02:18:23.210 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+02:18:23.210 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+02:18:23.212 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/SeleniumFramework
+02:18:23.213 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+02:18:23.213 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+02:18:23.215 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/SeleniumFramework
+02:19:05.207 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+02:19:05.208 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : false null
+02:19:05.211 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+02:19:05.212 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false null
+02:19:11.144 [Worker-55: Launching TCG_Flipkart] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+02:19:11.145 [Worker-55: Launching TCG_Flipkart] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+02:19:11.147 [Worker-55: Launching TCG_Flipkart] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+02:19:11.148 [Worker-55: Launching TCG_Flipkart] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.8}
+02:23:05.719 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+02:23:05.755 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : false null
+02:23:05.765 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+02:23:05.767 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false null
+02:23:07.303 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+02:23:07.305 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : false null
+02:23:07.307 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+02:23:07.308 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false null
