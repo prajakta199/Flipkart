@@ -1,0 +1,112 @@
+23:37:30.166 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+23:37:30.168 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+23:37:30.341 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+23:37:30.343 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : D:\BS_ST\testng-browserstack-master\browserstack.yml
+23:37:30.396 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:37:30.404 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+23:37:31.294 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+23:37:31.295 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+23:37:31.492 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Java command - org.testng.remote.RemoteTestNG -serport 65508 -protocol json -d D:\BS_ST\testng-browserstack-master\test-output C:\Users\PEDNEK~1\AppData\Local\Temp\testng-eclipse-1438843344\testng-customsuite.xml
+23:37:31.492 [main] DEBUG c.b.utils.FrameworkDetectionUtils - testng suite xml path C:\Users\PEDNEK~1\AppData\Local\Temp\testng-eclipse-1438843344\testng-customsuite.xml
+23:37:31.500 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.testcases.TCG_Filter_Page
+23:37:31.516 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+23:37:31.559 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+23:37:31.560 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+23:37:31.560 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.22
+23:37:31.560 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+23:37:32.763 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+23:37:33.694 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 929ms
+23:37:35.271 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 1572ms
+23:37:35.587 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 315ms
+23:37:35.588 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+23:37:35.597 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"YOUR_ACCESS_KEY","userName":"YOUR_USERNAME","event_properties":{"product":"[automate, observability]","buildName":"browserstack build","os":"Windows 11","languageVersion":"17.0.10","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":14,"parseDependencies":43},"language":"java","sdkRunId":"40a21c1a-e1f2-48c3-a543-499cac047d41","buildIdentifier":"#1","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true},"referrer":"testng-javaagent\/1.13.22","hostname":"PUMA-61868-WL","language_framework":"java_testng","detectedFramework":"testng","detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+23:37:36.091 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"Unauthorized"}
+23:37:36.092 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+23:37:36.112 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-01T18:07:36.111272Z][ OBSERVABILITY ] Processing Request Kind launchTestSession
+
+23:37:36.112 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/builds
+23:37:37.654 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+23:37:37.654 [main] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401
+23:37:37.654 [main] INFO  c.b.config.BrowserStackConfig - ERROR
+23:37:37.655 [main] INFO  c.browserstack.utils.LogReportingAPI - 
+[2024-05-01T18:07:37.655839800Z][ OBSERVABILITY ] EXCEPTION IN BUILD START EVENT : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsJson(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.launch(Unknown Source)
+	at com.browserstack.testOps.Listener.onStart(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy4.onStart(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+
+23:37:37.655 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:37:37.659 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 01_May_2337_PUMA_61868_WL_SWLo
+23:38:01.029 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: Disconnected.
+23:38:01.030 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed Disconnected.
+	at com.browserstack.LocalFactory.<init>(Unknown Source)
+	at com.browserstack.LocalFactory.a(Unknown Source)
+	at com.browserstack.LocalFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.d(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+23:38:01.031 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+23:38:01.033 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+23:38:01.034 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-01T18:08:01.034809400Z][ OBSERVABILITY ] Processing Request Kind stopBuildUpstream
+
+23:38:01.034 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: PUT api/v1/builds//stop
+23:38:01.253 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+23:38:01.254 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401
+23:38:01.254 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - Observability Stop request failed. Retrying.. Exception: com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.stop(Unknown Source)
+	at com.browserstack.testOps.Listener.onComplete(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy4.onComplete(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+23:38:02.397 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+23:38:02.397 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: PUT api/v1/builds//stop
+23:38:03.656 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+23:38:03.656 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401
+23:38:03.656 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-05-01T18:08:03.656634900Z][ OBSERVABILITY ] Exception in stop build request : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.stop(Unknown Source)
+	at com.browserstack.testOps.Listener.onComplete(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy4.onComplete(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+
